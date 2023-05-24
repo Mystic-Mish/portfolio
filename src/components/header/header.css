@@ -1,0 +1,44 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    background-image: url(../../assets/bg2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.header_container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.header_container h1 {
+    font-size: 100px;
+}
+
+.buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/*For Medium devices*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 70vh;
+        background-size: 100%;
+        overflow: hidden;
+    }
+}
+
+/*For small devices*/
+@media screen and (max-width: 600px) {
+    header{ 
+        height: 100vh;
+        background-size: 100%;
+        overflow: hidden;
+    }
+}
